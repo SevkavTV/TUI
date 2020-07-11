@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+   <style type="text/css">
+       html { height: 97% }
+       body { height: 97%; margin: 0; padding: 0 }
+       #map-canvas { height: 97% }
+   </style>
+   <script type="text/javascript"
+           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFLZwNZ3j2KNxR6_G4kqL4kO34cUxDZyU&sensor=false"></script>
+   <script type="text/javascript">
+    var map;
+	var text, data = []; //data is answer
+    function readBlob() {
+        var files = document.getElementById('files').files;
+        if (!files.length) {
+            alert('Please select a file!');
+            return;
+        }
+        var file = files[0];
+        var start = 0;
+        var stop = file.size - 1;
+
+        var reader = new FileReader();
+        reader.onloadend = function(evt) {
+
+            if (evt.target.readyState == FileReader.DONE) {
+
+                text = evt.target.result.toString();
+                data = [];
+                var cur = '';
+                for (var i = 0; i < text.length; i++) {
+                    if (text[i] == ' ') {
+                        data.push(Number(cur));
+                        cur = '';
+                    }
+                    else cur += text[i];
+                }
+                if (cur.length > 0) data.push(Number(cur));
+
+
+
+                for (var i = 0; i < data.length / 8; i++) {
+                    var pathCoords = [];
+                    for (var j = 0; j < 4; j++) {
+                        pathCoords.push({lat: data[i * 8 + j * 2 + 1], lng: data[i * 8 + j * 2]});
+                    }
+                    drawPolygon(pathCoords, "#FF0000");
+                }
+            }
+        };
+
+
+        var blob = file.slice(start, stop + 1);
+        reader.readAsBinaryString(blob);
+    }
+	document.addEventListener('click', function(evt) {
+        if (evt.target.tagName.toLowerCase() == 'button') {
+            readBlob();
+        }
+    }, false);
+
+    function initialize() {
+         var myLatlng = new google.maps.LatLng(50.97871481959585, 31.13908629141298);
+         var myOptions = {
+            zoom: 14,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+         }
+         map = new google.maps.Map(document.getElementById("gmap"), myOptions);
+    }
+	function drawPolygon (polygon, col) {
+        var bermudaTriangle = new google.maps.Polygon({
+          paths: polygon,
+          strokeColor: col,
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: col,
+          fillOpacity: 0
+        });
+        bermudaTriangle.setMap(map);
+    }
+    window.onload = function () { initialize() };
+
+   </script>
+   <style>
+ div#gmap {
+        width: 99%;
+        height: 99%;
+        border:double;
+ }
+    </style>
+</head>
+<body>
+	<div id="gmap"></div>
+	<div>
+        <input type="file" id="files" name="files[]" multiple />
+	    <button>Draw</button>
+    </div>
+</body>
+</html>

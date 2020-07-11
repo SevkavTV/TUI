@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StartMenu">
+  <grid id="27dc6" binding="Panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1016" height="650"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="1200" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="21bf7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Планування та обробка даних польотів дронів"/>
+        </properties>
+      </component>
+      <component id="ea361" class="javax.swing.JButton" binding="початиButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Почати"/>
+        </properties>
+      </component>
+      <component id="f263a" class="javax.swing.JLabel" binding="Info">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="10" weightx="1.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="___"/>
+        </properties>
+      </component>
+      <component id="6d91b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.05"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Турнір Юних Інформатиків"/>
+        </properties>
+      </component>
+      <component id="9c96f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="325" bottom="0" right="0" weightx="0.0" weighty="0.02"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Дніпровський ліцей інформаційних технологій при ДНУ ім. Олеся Гончара"/>
+        </properties>
+      </component>
+      <component id="86dc6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="465" bottom="0" right="0" weightx="3.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="drone_small.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="a0545">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="874ed" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="LIT-1-1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="bea12">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

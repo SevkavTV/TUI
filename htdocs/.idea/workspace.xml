@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5c6d99f-1f72-4a02-ac3e-54828c73a5b5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SFkhnyfQF0cyDzZUvfkF2LqGBE" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5c6d99f-1f72-4a02-ac3e-54828c73a5b5" name="Default Changelist" comment="" />
+      <created>1571166852769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571166852769</updated>
+      <workItem from="1571166855292" duration="1423000" />
+      <workItem from="1571212566696" duration="6760000" />
+      <workItem from="1571221704210" duration="4107000" />
+      <workItem from="1571233777912" duration="5190000" />
+      <workItem from="1571313641415" duration="269000" />
+      <workItem from="1571334101701" duration="1789000" />
+      <workItem from="1571383825700" duration="6636000" />
+      <workItem from="1571476154906" duration="1951000" />
+      <workItem from="1571489374866" duration="1211000" />
+      <workItem from="1571491436918" duration="2046000" />
+      <workItem from="1571493797481" duration="10000" />
+      <workItem from="1572345803771" duration="2266000" />
+      <workItem from="1572694775963" duration="5078000" />
+      <workItem from="1572704496647" duration="760000" />
+      <workItem from="1572716932047" duration="6940000" />
+      <workItem from="1572764109279" duration="4519000" />
+      <workItem from="1572769404653" duration="3970000" />
+      <workItem from="1572895093459" duration="5099000" />
+      <workItem from="1572960895520" duration="2493000" />
+      <workItem from="1573234507868" duration="3585000" />
+      <workItem from="1573239787734" duration="2217000" />
+      <workItem from="1573242158000" duration="450000" />
+      <workItem from="1573242650054" duration="2478000" />
+      <workItem from="1573281181144" duration="3624000" />
+      <workItem from="1573295139090" duration="15258000" />
+      <workItem from="1573313493146" duration="793000" />
+      <workItem from="1573316676631" duration="4889000" />
+      <workItem from="1573322143347" duration="94000" />
+      <workItem from="1573324370479" duration="4029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+</project>

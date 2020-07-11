@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="myGUI">
+  <grid id="27dc6" binding="MyPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1686" height="800"/>
+    </constraints>
+    <properties>
+      <background color="-986896"/>
+      <minimumSize width="818" height="800"/>
+      <preferredSize width="818" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="747d1" binding="JTable">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-986896"/>
+          <tabPlacement value="2"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="cbea1" binding="Task1" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Завдання 1"/>
+            </constraints>
+            <properties>
+              <background color="-2953488"/>
+              <minimumSize width="814" height="800"/>
+              <preferredSize width="814" height="800"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d400" class="javax.swing.JButton" binding="TestButt">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <preferred-size width="160" height="50"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Запустити"/>
+                </properties>
+              </component>
+              <component id="4df71" class="javax.swing.JButton" binding="інструкціяButton2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Інструкція"/>
+                </properties>
+              </component>
+              <component id="9baac" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="500" height="500"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="0.1" weighty="0.7"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <icon value="dron3.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="446b0" binding="Task2" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Завдання 2,3"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <background color="-2953488"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1a017" class="javax.swing.JLabel" binding="imageTask23">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <icon value="dron.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="28ca5" class="javax.swing.JButton" binding="buttonTask23FinalImage">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.1"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Фінальне зображення"/>
+                </properties>
+              </component>
+              <component id="ef9e2" class="javax.swing.JButton" binding="buttonTask23SecondImage">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Друге зображення"/>
+                </properties>
+              </component>
+              <component id="1540b" class="javax.swing.JButton" binding="buttonSolveTask23">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.1"/>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Вибрати зображення"/>
+                </properties>
+              </component>
+              <component id="9ef5c" class="javax.swing.JButton" binding="buttonTask23FirstImage">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Перше зображення"/>
+                </properties>
+              </component>
+              <component id="5e474" class="javax.swing.JButton" binding="інструкціяButton3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Інструкція"/>
+                </properties>
+              </component>
+              <component id="8e249" class="javax.swing.JButton" binding="buttonSolve23">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Виконати"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="38b02" binding="Task4" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Завдання 4"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <background color="-2953488"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f971b" class="javax.swing.JButton" binding="button2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Вибрати файл"/>
+                </properties>
+              </component>
+              <component id="57bba" class="javax.swing.JButton" binding="button3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <focusPainted value="true"/>
+                  <font size="16"/>
+                  <opaque value="true"/>
+                  <text value="Відкрити карту"/>
+                </properties>
+              </component>
+              <component id="e9773" class="javax.swing.JButton" binding="buttonTask4Next">
+                <constraints>
+                  <grid row="2" column="2" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="0" right="150" weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="15"/>
+                  <text value="Наступне зображення"/>
+                </properties>
+              </component>
+              <component id="8ef52" class="javax.swing.JButton" binding="buttonTask4Previous">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="150" bottom="0" right="0" weightx="1.0" weighty="0.1"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Попереднє зображення"/>
+                </properties>
+              </component>
+              <component id="db983" class="javax.swing.JButton" binding="інструкціяButton4" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Інструкція"/>
+                </properties>
+              </component>
+              <component id="2ddfd" class="javax.swing.JLabel" binding="imageTask4">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="0.0"/>
+                  <icon value="dron.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4324e" class="javax.swing.JButton" binding="buttonPanorama">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Побудувати панораму"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="13e09" binding="Task5" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Завдання 5"/>
+            </constraints>
+            <properties>
+              <background color="-2953488"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a4dd7" class="javax.swing.JLabel" binding="task5Image">
+                <constraints>
+                  <grid row="1" column="0" row-span="3" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="12" left="0" bottom="0" right="0" weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <icon value="dron.jpg"/>
+                  <text value=""/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="c5c" class="javax.swing.JButton" binding="buttonNextTask5">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Друге зображення"/>
+                </properties>
+              </component>
+              <component id="f5b8e" class="javax.swing.JButton" binding="buttonReadImages2">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Вибрати зображення"/>
+                </properties>
+              </component>
+              <component id="a2bc5" class="javax.swing.JButton" binding="buttonSolveTask5">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="18"/>
+                  <text value="Виконати"/>
+                </properties>
+              </component>
+              <component id="90a7" class="javax.swing.JButton" binding="інструкціяButton1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="300" right="0" weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Інструкція"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="177de" binding="Task6" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Завдання 6"/>
+            </constraints>
+            <properties>
+              <background color="-2953488"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="eccc0" class="javax.swing.JButton" binding="task6btnChange">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value=" Стартове зображення"/>
+                </properties>
+              </component>
+              <component id="eec4d" class="javax.swing.JLabel" binding="imageTask6">
+                <constraints>
+                  <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <icon value="dron.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="5fa89" class="javax.swing.JButton" binding="button4" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <font size="16"/>
+                  <text value="Вибрати зображення"/>
+                </properties>
+              </component>
+              <component id="1dbcd" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <enabled value="false"/>
+                  <font size="16"/>
+                  <text value="Обробити зображення"/>
+                </properties>
+              </component>
+              <component id="d494b" class="javax.swing.JLabel" binding="task6Wheel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <icon value="color-wheel.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="d3852" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="50" left="0" bottom="0" right="0" weightx="1.0" weighty="0.01"/>
+                </constraints>
+                <properties>
+                  <background color="-2953488"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="95ab0" class="javax.swing.JLabel" binding="labelValue1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <focusable value="true"/>
+                      <font size="16"/>
+                      <text value="Перший колір"/>
+                    </properties>
+                  </component>
+                  <component id="24365" class="javax.swing.JLabel" binding="task6Color1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="7308" class="javax.swing.JButton" binding="button5" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2694187"/>
+                      <font size="16"/>
+                      <text value="Виберіть перший колір"/>
+                    </properties>
+                  </component>
+                  <component id="19955" class="javax.swing.JButton" binding="button6" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2694187"/>
+                      <font size="16"/>
+                      <text value="Виберіть другий колір"/>
+                    </properties>
+                  </component>
+                  <component id="426f8" class="javax.swing.JLabel" binding="task6Color2">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="b5f8d" class="javax.swing.JLabel" binding="labelValue2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <text value="Другий колір"/>
+                    </properties>
+                  </component>
+                  <component id="cf452" class="javax.swing.JButton" binding="взятиКолірПіпеткиButton" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2694187"/>
+                      <font size="16"/>
+                      <text value="Взяти колір піпетки"/>
+                    </properties>
+                  </component>
+                  <component id="fdb33" class="javax.swing.JButton" binding="взятиКолірПіпеткиButton1" default-binding="true">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2694187"/>
+                      <font size="16"/>
+                      <text value="Взяти колір піпетки"/>
+                    </properties>
+                  </component>
+                  <component id="46ade" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <text value="Колір піпетки"/>
+                    </properties>
+                  </component>
+                  <component id="f718c" class="javax.swing.JLabel" binding="pipetLabel">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="c577f" class="javax.swing.JButton" binding="інструкціяButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="0" bottom="300" right="0" weightx="1.0" weighty="0.001"/>
+                </constraints>
+                <properties>
+                  <background color="-2694187"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <font size="16"/>
+                  <text value="Інструкція"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
